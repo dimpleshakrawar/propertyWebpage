@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.bhg.com/thmb/VM0_g9o-R-ZC1XXOYQfpPkfVrkg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/craftsman-style-home-fenced-front-yard-a9b9e28b-32f0e418576742dfb598498f019ff0e7.jpg",
+    "price": 4200,
+    "isFavorite": false,
+    "title": "Palm Harbor",
+    "address": "P.O. Box 929 4189 Nunc Road, Lebanon KY 69409",
+    "place": "Lebanon",
+    "type": "House",
+    "description": {
+      "bedroom": 2,
+      "toilet": 2,
+      "area": "5*7 sq.feet"
+    },
+    "available": "2022-11-25"
+  },
+  {
+    "id": 2,
+    "image": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-186077.jpg&fm=jpg",
+    "price": 2220,
+    "isFavorite": false,
+    "title": "Cecilia Chapman",
+    "address": "711-2880 Nulla St., Mankato Mississippi 96522",
+    "place": "Mississippi",
+    "type": "Bungalow",
+    "description": {
+      "bedroom": 1,
+      "toilet": 1,
+      "area": "3*7 sq.feet"
+    },
+    "available": "2022-11-15"
+  },
+  {
+    "id": 3,
+    "image": "https://wp-tid.zillowstatic.com/25/Traditional-style-suburban-home-shutterstock_398991412-823eff-1024x546.jpg",
+    "price": 6280,
+    "isFavorite": false,
+    "title": "Iris Watson",
+    "address": "P.O.Box 283 8562, Frederick Nebraska 20620",
+    "place": "Nebraska",
+    "type": "Villa",
+    "description": {
+      "bedroom": 3,
+      "toilet": 3,
+      "area": "6*7 sq.feet"
+    },
+    "available": "2022-12-05"
+  },
+  {
+    "id": 4,
+    "image": "https://www.topedmontonrealestate.com/thumbs/800x600/r/uploads/225034373-1.JPG",
+    "price": 4500,
+    "isFavorite": false,
+    "title": "Celeste Slater",
+    "address": "606-3727 Ullamcorper. Street, Lebanon NH 11523",
+    "place": "Lebanon",
+    "type": "Villa",
+    "description": {
+      "bedroom": 2,
+      "toilet": 2,
+      "area": "5*9 sq.feet"
+    },
+    "available": "2022-11-30"
+  },
+  {
+    "id": 5,
+    "image": "https://media.istockphoto.com/id/1211174464/photo/beautiful-residential-home-exterior-on-bright-sunny-day-with-green-grass-and-blue-sky.jpg?s=612x612&w=0&k=20&c=h0XtWGD8asz_hfDVus7SWwOrtAFlZYfr7wdStKCQv14=",
+    "price": 3890,
+    "isFavorite": false,
+    "title": "Palm Harbor",
+    "address": "Cecilia Chapman Mankato Mississippi 96522",
+    "place": "Mississippi",
+    "type": "Bungalow",
+    "description": {
+      "bedroom": 2,
+      "toilet": 1,
+      "area": "4*7 sq.feet"
+    },
+    "available": "2022-12-22"
+  },
+  {
+    "id": 6,
+    "image": "https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg",
+    "price": 4000,
+    "isFavorite": false,
+    "title": "Theodore Lowe",
+    "address": "Ap #867-859 Sit Rd., Azusa New York 39531",
+    "place": "New York",
+    "type": "Bungalow",
+    "description": {
+      "bedroom": 2,
+      "toilet": 2,
+      "area": "6*1 sq.feet"
+    },
+    "available": "2022-11-30"
+  },
+  {
+    "id": 7,
+    "image": "https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/ZG_ZPA_08_21_Americana_ExtFront_1081_m2484px-copy_mobileWebp2x-2.webp",
+    "price": 5000,
+    "isFavorite": false,
+    "title": "Calista Wise",
+    "address": "7292 Dictum Av., Fort Dodge New York MI 47096",
+    "place": "New York",
+    "type": "House",
+    "description": {
+      "bedroom": 3,
+      "toilet": 2,
+      "area": "6*0 sq.feet"
+    },
+    "available": "2022-11-15"
+  },
+  {
+    "id": 8,
+    "image": "https://houzbuzz.com/wp-content/uploads/2016/03/case-din-barne-de-lemn-masiv-Solid-wood-house-plans.jpg",
+    "price": 3100,
+    "isFavorite": false,
+    "title": "Kyla Olsen",
+    "address": "Ap #651-8679 Sodales Av., New York PA 10855",
+    "place": "New York",
+    "type": "House",
+    "description": {
+      "bedroom": 2,
+      "toilet": 1,
+      "area": "5*7 sq.feet"
+    },
+    "available": "2022-11-05"
+  },
+  {
+    "id": 9,
+    "image": "https://homezonline.in/wp-content/uploads/2022/07/Modern-double-storey-home.jpg",
+    "price": 6700,
+    "isFavorite": false,
+    "title": "Forrest Ray",
+    "address": "191-103 Integer Rd.,Corona New Mexico 08219",
+    "place": "New Mexico",
+    "type": "House",
+    "description": {
+      "bedroom": 3,
+      "toilet": 3,
+      "area": "6*4 sq.feet"
+    },
+    "available": "2022-11-21"
+  },
+  {
+    "id": 10,
+    "image": "https://images.livemint.com/img/2022/10/08/600x338/Canada-House-johnson-U6Q6zVDgmSs_1665213509965_1665213519096_1665213519096.jpg",
+    "price": 7800,
+    "isFavorite": false,
+    "title": "Hiroko Potter",
+    "address": "P.O. Box 887 2508 Dolor. Av.,Muskegon KY 12482",
+    "place": "Lebanon",
+    "type": "Villa",
+    "description": {
+      "bedroom": 4,
+      "toilet": 3,
+      "area": "7*7 sq.feet"
+    },
+    "available": "2022-11-27"
+  },
+  {
+    "id": 11,
+    "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?cs=srgb&dl=pexels-scott-webb-1029599.jpg&fm=jpg",
+    "price": 5480,
+    "isFavorite": false,
+    "title": "Nyssa Vazquez",
+    "address": "511-5762 At Rd., Fort Dodge Muskegon MI 67708",
+    "place": "New Mexico",
+    "type": "House",
+    "description": {
+      "bedroom": 2,
+      "toilet": 2,
+      "area": "5*0 sq.feet"
+    },
+    "available": "2022-11-03"
+  },
+  {
+    "id": 12,
+    "image": "https://img.myloview.com/stickers/fairy-tale-cottage-house-in-killarney-national-park-ireland-400-1625769.jpg",
+    "price": 2800,
+    "isFavorite": false,
+    "title": "Lawrence Moreno",
+    "address": "935-9940 Tortor. Street, Santa Rosa MN 98804",
+    "place": "Nebraska",
+    "type": "Villa",
+    "description": {
+      "bedroom": 1,
+      "toilet": 1,
+      "area": "3*7 sq.feet"
+    },
+    "available": "2022-11-10"
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aG91c2V8ZW58MHx8MHx8&w=1000&q=80",
+    "price": 2789,
+    "isFavorite": false,
+    "title": "Palm Harbor",
+    "address": "P.O. Box 929 4189 Nunc Road, Lebanon KY 69409",
+    "place": "Lebanon",
+    "type": "Bungalow",
+    "description": {
+      "bedroom": 2,
+      "toilet": 2,
+      "area": "5*7 sq.feet"
+    },
+    "available": "2022-11-01"
+  }
+]
