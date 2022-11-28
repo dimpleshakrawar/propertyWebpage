@@ -2,10 +2,11 @@ import { Grid, Box } from "@mui/material";
 import { InputField, InputFieldDropDown } from "../components/InputFields";
 import Buttons from "../components/Button";
 import { useState } from "react";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function FilterBar({ filterHandler }) {
+  const isDesktopView = useMediaQuery("(min-width:600px)");
   const [location, setLocation] = useState("");
-  const [isError, setIsError] = useState(false);
   const [property, setProperty] = useState("");
   const [price, setPrice] = useState("");
   const [date, setDate] = useState("");
@@ -29,8 +30,6 @@ export default function FilterBar({ filterHandler }) {
   };
 
   const submitHandler = (filterData) => {
-    if (location.length && date.length && property.length && price.length)
-      setIsError(true);
     filterHandler(filterData);
   };
   return (
@@ -49,13 +48,14 @@ export default function FilterBar({ filterHandler }) {
       >
         <Grid
           item
+          md={2}
+          sm={3}
           sx={{
-            "& .MuiTextField-root": { width: "32ch" },
+            "& .MuiTextField-root": { width: "25ch" },
             mb: 1,
           }}
         >
           <InputFieldDropDown
-            error={isError}
             label={"Location"}
             value={location}
             variant={"standard"}
@@ -65,6 +65,8 @@ export default function FilterBar({ filterHandler }) {
         </Grid>
         <Grid
           item
+          md={2}
+          sm={3}
           sx={{
             "& .MuiTextField-root": { width: "32ch" },
             mb: 1,
@@ -72,11 +74,19 @@ export default function FilterBar({ filterHandler }) {
         >
           <InputField
             type={"date"}
-            value="when"
+            value={date}
             onChange={(e) => setDate(e.target.value)}
           />
         </Grid>
-        <Grid item sx={{ mb: 1 }}>
+        <Grid
+          item
+          sx={{
+            "& .MuiTextField-root": { width: "25ch" },
+            mb: 1,
+          }}
+          md={2}
+          sm={3}
+        >
           <InputFieldDropDown
             label={"Price"}
             value={price}
@@ -85,7 +95,15 @@ export default function FilterBar({ filterHandler }) {
             options={priceRange}
           />
         </Grid>
-        <Grid item sx={{ mb: 1 }}>
+        <Grid
+          item
+          sx={{
+            "& .MuiTextField-root": { width: "25ch" },
+            mb: 1,
+          }}
+          md={2}
+          sm={3}
+        >
           <InputFieldDropDown
             label={"Property Type"}
             value={property}
@@ -93,7 +111,7 @@ export default function FilterBar({ filterHandler }) {
             options={propertyType}
           />
         </Grid>
-        <Grid item>
+        <Grid item md={1} sm={12}>
           <Buttons
             label={"Search"}
             color={"success"}

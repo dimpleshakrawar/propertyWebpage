@@ -8,11 +8,10 @@ import {
   TextField,
 } from "@mui/material";
 
-export function InputField({ label, type, onChange, error }) {
+export function InputField({ label, type, onChange }) {
   return (
     <TextField
       id="outlined-basic"
-      error={error}
       label={label}
       variant="outlined"
       type={type}

@@ -138,7 +138,10 @@ export default function Home() {
           </Grid>
           <Grid
             item
-            sx={{ marginLeft: isDesktopView && "41%", mt: !isDesktopView && 3 }}
+            sx={{
+              marginLeft: isDesktopView && "300px",
+              mt: !isDesktopView && 3,
+            }}
           >
             <InputFieldDropDown
               label={"Search with Search bar"}
@@ -146,7 +149,7 @@ export default function Home() {
               options={find}
             />
           </Grid>
-          <Grid item sx={{ ml: isDesktopView && 2, mt: !isDesktopView && 1 }}>
+          <Grid item sx={{ ml: isDesktopView && 1, mt: !isDesktopView && 3 }}>
             <Link style={{ textDecoration: "none" }} to="/favorites">
               <Button
                 variant="contained"
