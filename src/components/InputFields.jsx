@@ -20,14 +20,7 @@ export function InputField({ label, type, onChange }) {
   );
 }
 
-export function InputFieldDropDown({
-  label,
-  value,
-  onChange,
-  options,
-  error,
-  required,
-}) {
+export function InputFieldDropDown({ label, value, onChange, options, error }) {
   return (
     <Box sx={{ minWidth: 280 }}>
       <FormControl fullWidth>

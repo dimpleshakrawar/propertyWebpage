@@ -28,7 +28,7 @@ export default function PropertyInfo({ addfavoriteHandler, propertyList }) {
   };
 
   return (
-    <Grid container sm={{ m: 2 }} flexDirection="row">
+    <Grid container flexDirection="row">
       {propertyList?.map((info) => (
         <Grid item md={4} key={info.id} xs={12} flexDirection="row">
           <Card

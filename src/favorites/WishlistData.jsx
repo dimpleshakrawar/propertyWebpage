@@ -48,7 +48,7 @@ export default function WishlistData() {
               display: "flex",
               height: isDesktopView ? "180px" : "120px",
               mt: 3,
-              mb: 3,
+              mb: 1,
               background: "rgb(210,242,145)",
             }}
           >
@@ -64,7 +64,7 @@ export default function WishlistData() {
                 <Grid item sx={{ marginRight: "500px", width: 400 }}>
                   <CardContent sx={{ flex: "1 0 auto" }}>
                     <Typography gutterBottom variant="h5" component="div">
-                      {ele.price}
+                      ${ele.price.toLocaleString("en-US")}
                     </Typography>
 
                     <Typography variant="h4" color="text.secondary">

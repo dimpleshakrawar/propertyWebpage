@@ -18,9 +18,8 @@ export default function FilterBar({ filterHandler }) {
     "$4,000 - $5,000",
     "$5,000 - $6,000",
     "$6,000 - $7,000",
-    "$7,000 - $8,000",
   ];
-  const places = ["New York", "Lebanon", "Mississippi", "New Mexico"];
+  const places = ["New York", "Lebanon", "Mississippi", "Nebraska"];
 
   const filterData = {
     location,
@@ -29,7 +28,7 @@ export default function FilterBar({ filterHandler }) {
     price,
   };
 
-  const submitHandler = (filterData) => {
+  const submitHandler = () => {
     filterHandler(filterData);
   };
   return (
@@ -116,7 +115,7 @@ export default function FilterBar({ filterHandler }) {
             label={"Search"}
             color={"success"}
             variant={"contained"}
-            onClick={() => submitHandler(filterData)}
+            onClick={submitHandler}
           />
         </Grid>
       </Grid>
